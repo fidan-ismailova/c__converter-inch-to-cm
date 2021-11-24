@@ -24,8 +24,8 @@ int main(void)
 
     printf_s("\n");
 
-    printf("\tINCHES = %lf\n", inch);
-    printf("\t    CM = %lf\n", cm);
+    printf("\tINCHES = %.2lf\n", inch);
+    printf("\t    CM = %.2lf\n", cm);
 
     printf_s("\n");
     printLine(n);
